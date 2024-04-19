@@ -12,3 +12,8 @@
     height: 500px;
     width: 500px;
 }
+
+
+.mapa{
+    box-shadow: 5px 5px 50px #888;
+}
