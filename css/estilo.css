@@ -199,6 +199,7 @@ h1,h2,h3,h4,h5{
 .main__about_description .column:nth-child(2){
 	padding: 10px;
 }
+
 .btn{
 	
 	display: block;
@@ -211,6 +212,7 @@ h1,h2,h3,h4,h5{
 	margin: 10px auto;
 	
 }
+
 .group__title{
 	font-family:'Sacramento',cursive;
 	text-align: center;
@@ -267,7 +269,16 @@ h1,h2,h3,h4,h5{
 	position: relative;
 	top: 3px;
 	right: 5px;
+	margin-top: 5;
 }
+
+/*----------------Estilos Propios------------------*/
+
+.tamaño-img{
+	
+}
+
+
 
 /*----------------Estilos Responsivos------------------*/
 
