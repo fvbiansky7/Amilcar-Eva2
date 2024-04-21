@@ -3,20 +3,124 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">insertar icono</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">+56939079436
+                    </span>
+                </p>
+                <p class="main-header__contactInfo__addres">
+                    <span class="icon-location">Rucamanque bajo #40 </span>
+                </p>
+            </div>
+        </div>
+    </header>
 
-    <div class="mapa">
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12793.54776763175!2d-73.1480064!3d-36.7132672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9668344e2eda8dcd%3A0x17c63ce636e7fa3b!2sParque%20Tumbes!5e0!3m2!1ses-419!2scl!4v1713494234913!5m2!1ses-419!2scl"
-        width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+    <nav class="main_nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="https://web.facebook.com/groups/hollowlatino/?locale=es_LA&_rdc=1&_rdr"
+                    class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="https://twitter.com/TeamCherryGames" class="social-icon__link"><span
+                        class="icon-twitter"></span></a>
+                <a href="https://www.instagram.com/?hl=es-la" class="social-icon__link"><span
+                        class="icon-instagram"></span></a>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+                    rel="stylesheet">
+            </div>
+        </div>
+    </nav>
 
-</body>
+    <section class="banner">
+        <img src="imagenes/fantasma-azul.jpg" alt="Aqui podemos ver al 'fantasma de Hallownest'" class="banner__img">
+        <div class="banner__content">HallownestFans</div>
+    </section>
+
+    <body>
+        <div class="container--flex-1">
+            <div>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Ingresa tu correo</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">No compartiremos tu informacion personal con nadie.</div>
+                        <label for="exampleInputEmail1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Confirma tu correo</div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Quiero recibir informacion sobre
+                            HallownestFans</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <h1 class="titulo">Si quieres ser parte de nuestro club puedes registrarte en el formulario</h1>
+            </div>
+        </div>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12793.54776763175!2d-73.1480064!3d-36.7132672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9668344e2eda8dcd%3A0x17c63ce636e7fa3b!2sParque%20Tumbes!5e0!3m2!1ses-419!2scl!4v1713494234913!5m2!1ses-419!2scl"
+                width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+
+    </body>
+
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">Visitanos</h2>
+                <p class="column__txt">Nos juntamos los viernes en mi casa a comer papitas y jugar Hollow Knight </p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contactenos</h2>
+                <p class="column__txt">Rucamanque bajo #40</p>
+                <p class="column__txt">Telefono: +569 39079436</p>
+
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Siguenos</h2>
+                <p class="column__txt"><a href="https://web.facebook.com/groups/hollowlatino/?locale=es_LA&_rdc=1&_rdr"
+                        class="icon-facebook">Facebook</a></p>
+                <p class="column__txt"><a href="https://twitter.com/TeamCherryGames" class="icon-twitter">Twitter</a>
+                </p>
+                <p class="column__txt"><a href="https://www.instagram.com/?hl=es-la"
+                        class="icon-instagram">Instagram</a></p>
+            </div>
+            <p class="copy">@ 2024 HallownestFans | Todos los derechos reservados</p>
+        </div>
+    </footer>
 
 </html>
