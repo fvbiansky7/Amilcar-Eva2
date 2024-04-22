@@ -31,7 +31,6 @@ h1,h2,h3,h4,h5{
     flex-wrap: wrap;
     justify-content:space-between;
     align-items:center;
-	flex-wrap: wrap;
 }
 
 
@@ -70,13 +69,13 @@ h1,h2,h3,h4,h5{
 }
 .logo{
     font-size: 1.9em;
-    color: #de423a;
+    color: cyan;
     padding: 10px;
     font-family:'Lugrasimo', cursive;
         
 }
 .main-header__contactInfo__phone{
-    background:#de423a;
+    background:cyan;
     color: #fff;
     padding: 10px;
     margin: 0;
@@ -164,10 +163,10 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color:cyan;
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: cyan;
     
 }
 .mostrar{
@@ -176,7 +175,7 @@ h1,h2,h3,h4,h5{
 /*----------------Estilos Banner------------------*/
 
 .banner{
-    margin-top:-52px;
+    margin-top:0;
     position: relative;
 }
 .banner:before {
@@ -213,7 +212,7 @@ h1,h2,h3,h4,h5{
 }
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color:gainsboro;
 	padding: 10px;
 	text-align: center;
 	
@@ -255,6 +254,7 @@ h1,h2,h3,h4,h5{
 .today-special .column {
 	margin-bottom: 30px;
 	text-align: center;
+
 }
 
 .today-special__img{
@@ -268,11 +268,7 @@ h1,h2,h3,h4,h5{
 	padding-top: 10px;
 	padding-bottom: 20px;
 }
-.today-special__price{
-	font-size: 1.5em;
-	color: #DE423a;
-	font-weight: bold;
-}
+
 
 /*----------------Estilos Principales------------------*/
 .main-footer{
@@ -518,8 +514,7 @@ h1,h2,h3,h4,h5{
 	align-items: flex-start;
 }
 .our-team__title{
-	font-family: 'Pacifico',cursive;
-	color: #de423a;
+	font-family: 'titilium';
 	font-size: 1.8em;
 	margin-bottom: 10px;
 }
